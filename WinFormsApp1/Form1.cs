@@ -54,6 +54,7 @@ namespace WinFormsApp1
          void PictureBoxTiklama(object sender, EventArgs e)
         {
             PictureBox tiklanan = sender as PictureBox;
+            //resim23
             int satir= Convert.ToInt32( tiklanan.Name[5].ToString());
             int sutun= Convert.ToInt32( tiklanan.Name[6].ToString());
             
